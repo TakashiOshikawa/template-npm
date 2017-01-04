@@ -1,0 +1,15 @@
+{
+  "name": "npm-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entry.js",
+  "scripts": {
+    "test": "test",
+    "build": "browserify src/js/entry.js > dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^13.1.1"
+  }
+}
